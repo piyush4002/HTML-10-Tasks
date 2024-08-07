@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KHAO PIYO RESTAURANT</title>
+  <style>
+    .container {
+      border: 2px solid black;
+      padding: 0 20vw;
+    }
+    .column {
+      float: left;
+    }
+    .left {
+      width: 25%;
+    }
+    .right {
+      width: 50%;
+    }
+    .middle {
+      width: 25%;
+      padding-top: 100px;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    table{
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+    td{
+      border: 1px solid black;
+      padding: 0 5px;
+    }
+  </style>
+</head>
+<body style="padding: 0 8vw;">
+  <div class="container">
+    <h2 style="text-align: center; padding-right: 35%;">KHAO PIYO RESTAURANT</h2>
+    <div class="row">
+      <div class="column left">
+        <p>Collect information for:</p>
+        <ul>
+          <li>Menu</li>
+          <li>Reservation</li>
+          <li>Catering</li>
+          <li>Tours</li>
+        </ul>
+      </div>
+      <div class="column middle">
+        <p>Menu Available are:</p>
+        <table>
+          <tr>
+            <td>1</td>
+            <td>INDIAN</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>ITALIAN</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>CONTINENTAL</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>THAI</td>
+          </tr>
+        </table>
+      </div>
+      <div class="column right">
+        <img src="./waiter.jpg" alt="" width="300px">
+      </div>
+    </div>
+    <p>For further enquiries and reservations Contact us.</p>
+  </div>
+</body>
+</html>

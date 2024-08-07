@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smacking Lollies</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 40%;
+      padding: 5px;
+    }
+    
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+</head>
+<body style="padding: 0 15vw;">
+<div style="border: 2px solid black;">
+  <h2 style="text-align: center;">Smacking Lollies</h2>
+  <div class="row">
+    <div class="column">
+      <img src="./lollipops.jpg" alt="Snow" style="height: 50%; padding-left: 200px;">
+    </div>
+    <div class="column">
+      <p><u><i>Smacking Lollies</i></u> is a new chain of stores selling variety of candies and mouth watering lollies</p>
+      <p>The following is a list of outlets of Smacking Lollies:</p>
+      <ul>
+        <li><u><b>West Delhi</b></u> - Janak Puri and Rajouri Garden</li>
+        <li><u><b>South Delhi</b></u> - South Extension and Vasant Kunj</li>
+      </ul>
+    </div>
+  </div>
+  <p style="text-align: center;">For enquiries mail us at enquiry@gmail.com</p>
+ </div>
+</body>
+</html>
